@@ -23,7 +23,7 @@ public class CalcularPeriodo {
         int meses = periodo.getMonths();
         int dias = periodo.getDays();
         
-        String texto = String.format(nombre + " ocurriÃ³ hace %d aÃ±os, %d meses y %d dÃ­as.", anyos, meses, dias);
+        String texto = String.format(nombre + " ocurrió hace %d años, %d meses y %d días.", anyos, meses, dias);
          
         System.out.println(texto);
     }
